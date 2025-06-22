@@ -1,32 +1,30 @@
-from pathlib import Path
+# 🧹 Data Cleaning Dashboard
 
-readme_content = """# 🧹 Data Cleaning Dashboard
-
-An intelligent **Streamlit-based** web app for automated and ML-enhanced data cleaning, evaluation, and recommendation. Supports traditional, ML-based, and deep learning (Autoencoder) cleaning, with a learning system that improves suggestions over time and generates PDF summaries.
+An intelligent Streamlit-based web app for automated and ML-enhanced data cleaning, evaluation, and recommendation. Supports traditional methods, ML-based strategies, and deep learning (Autoencoders), with learning-based recommendations and PDF summaries.
 
 ---
 
 ## 🚀 Features
 
 - 📂 Upload and preview CSV files
-- 🧼 Choose from cleaning strategies:
+- 🧼 Choose from:
   - Traditional Cleaning
-  - ML-Based Cleaning (KNN + Isolation Forest)
-  - Autoencoder Cleaning (deep learning)
-  - Auto Mode (uses recommender system)
-- 🔍 Regex-based text cleaning for specific columns
-- 🧠 Cleaning method recommender trained on usage logs
-- 📈 Evaluate models (classification or regression)
-- 🧮 Calculates a composite **cleaning score**
-- 🧾 Generate PDF summary of corrections made
-- 🔁 Learns from each run and improves over time
+  - ML-Based Cleaning
+  - Autoencoder Cleaning
+  - Auto Mode (with recommender)
+- 🔍 Regex-based text column cleaning
+- 🧠 Cleaning method recommender (trained on logs)
+- 📈 Model evaluation (classification & regression)
+- 🧮 Cleaning score with metrics
+- 🧾 PDF summary export
+- 🔁 Learns from each run to improve recommendations
 
 ---
 
 ## 📦 Installation
 
-### 1. Create and activate a virtual environment
+### 1. Clone the Repository
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\\Scripts\\activate
+git clone https://github.com/ngoubimaximillian12/ddata-cleaning-dashboard.git
+cd ddata-cleaning-dashboard
