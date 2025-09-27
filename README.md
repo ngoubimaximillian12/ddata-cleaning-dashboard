@@ -247,7 +247,7 @@ Licensed under the **MIT License** — see `LICENSE`.
 
 ## 👨‍💻 Author
 
-**Ngoubi Maximillian Diamgha**
+**Ngoubi Maximillian Diangha**
 GitHub: [@ngoubimaximillian12](https://github.com/ngoubimaximillian12)
 Email: [ngoubimaximilliandiangha@gmail.com](mailto:ngoubimaximilliandiangha@gmail.com)
 LinkedIn: [Diangha Ngoubi](https://www.linkedin.com/in/diangha-ngoubi-42a49b281/)
